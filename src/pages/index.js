@@ -1,4 +1,5 @@
 import Head from "next/head";
+import WorkInProgressBar from "@/components/WorkInProgressBar";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <WorkInProgressBar />
         <h1 className="text-2xl">Hello</h1>
       </main>
     </>
