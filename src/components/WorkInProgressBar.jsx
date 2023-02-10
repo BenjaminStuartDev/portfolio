@@ -1,4 +1,5 @@
 import ConstructionWorker from "../../public/construction_worker.svg";
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 export default function WorkInProgressBar() {
