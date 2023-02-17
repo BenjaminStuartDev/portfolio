@@ -1,5 +1,5 @@
 import Head from "next/head";
-import WorkInProgressBar from "@/components/WorkInProgressBar";
+import Marquee from "@/components/Marquee";
 
 export default function Home() {
   return (
@@ -14,8 +14,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <WorkInProgressBar />
-        <h1 className="text-2xl">Hello</h1>
+        <Marquee customVariants={false}>
+          <h1 className="font-family:montserrat h-0 font-semibold text-3xl sm:text-5xl xl:text-7xl text-chalk-grey">
+            SITE UNDER CONSTRUCTION
+          </h1>
+        </Marquee>
       </main>
     </>
   );

@@ -12,8 +12,7 @@ module.exports = {
     extend: {
       colors: {
         "mine-shaft": "#222222",
-        "malibu-blue": "#91B9F5",
-        "construction-yellow": "#FFCA42",
+        "chalk-grey": "#CECECE",
       },
       fontFamily: {
         montserrat: ["Montserrat"],
