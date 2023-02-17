@@ -1,5 +1,4 @@
 export default function Codeblock() {
-  // Reminder: Proceed with caution when adding new strings because they could escape the iterator
   const content = {
     languages: ["Javascript", "Ruby", "C", "Python", "Scss", "HTML"],
     keySkills: [
@@ -48,7 +47,11 @@ export default function Codeblock() {
                   [
                   {content[key].map((item, index) => (
                     <div key={index} className="whitespace-nowrap">
-                      <span className="text-cornflower-blue">"{item}"</span>
+                      <span className="text-cornflower-blue">
+                        {`"`}
+                        {item}
+                        {`"`}
+                      </span>
                       {index == content[key].length - 1 ? "]" : ","}
                     </div>
                   ))}
