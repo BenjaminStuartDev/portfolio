@@ -1,0 +1,11 @@
+.marquee {
+    position: relative;
+    width: 200vw;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.track {
+    position: absolute;
+    white-space: nowrap;
+}

@@ -9,7 +9,15 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "mine-shaft": "#222222",
+        "chalk-grey": "#CECECE",
+      },
+      fontFamily: {
+        montserrat: ["Montserrat"],
+      },
+    },
   },
   plugins: [],
 };
